@@ -12,11 +12,11 @@
 A sample test has been provided to prove the codebase works.
 
 ```shell
-$ pipenv run pytest
+$ pipenv run tests
 ```
 
 ## Run the executable
 
 ```shell
-pipenv run bin/projbin
+$ pipenv run exe
 ```
