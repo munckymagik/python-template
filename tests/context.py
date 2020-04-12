@@ -11,3 +11,5 @@ def _setup():
     sys.path.insert(0, abs_root_folder)
 
 _setup()
+
+import projname as subject

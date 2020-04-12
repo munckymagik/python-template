@@ -1,6 +1,5 @@
-import context
-from projname import itworks
+from .context import subject
 
 
 def test_itworks():
-    assert itworks() == "hello"
+    assert subject.itworks() == "hello"
