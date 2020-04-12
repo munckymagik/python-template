@@ -5,7 +5,7 @@ This is a template Python project. Use it to seed new applications.
 Included features are:
 
 * Dependency and environment management using [Pipenv](https://pipenv.pypa.io/en/latest/)
-* A simple command line executable front-end
+* A simple front-end to run the application
 * Tests using [pytest](https://docs.pytest.org/en/latest/)
 * Linting using [pylint](http://pylint.pycqa.org/en/latest/index.html)
 * Formatting using [autopep8](https://pypi.org/project/autopep8/)
@@ -16,7 +16,7 @@ Included features are:
 
 1. Optionally adjust `python_version` in the `[requires]` section of the `Pipfile` to match
    the version of Python you are using
-2. Rename the `projname` folder and `bin/projexe` file to suit your real project name
+2. Rename the `projname` folder to suit your real project name
 3. Search and replace all occurrences of `projname` with your new project name
 
 ## Set up
@@ -24,18 +24,18 @@ Included features are:
 1. Install [pipenv](https://pipenv.pypa.io/en/latest/install/#installing-pipenv)
 2. Run `pipenv install --dev` to install project and development dependencies
 
+## Run the application
+
+```shell
+$ pipenv run app
+```
+
 ## Run the tests
 
 To run all tests:
 
 ```shell
 $ pipenv run tests
-```
-
-## Run the executable
-
-```shell
-$ pipenv run exe
 ```
 
 ## Formatting
