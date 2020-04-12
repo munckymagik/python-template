@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+pylint = "*"
 pytest = "*"
 autopep8 = "*"
 
@@ -16,4 +17,5 @@ python_version = "3.8"
 exe = "bin/projexe"
 format = "autopep8 --recursive --in-place ."
 format-check = "autopep8 --exit-code --recursive --diff ."
+lint = "pylint -f colorized projname/ tests/"
 tests = "pytest --doctest-modules ."
