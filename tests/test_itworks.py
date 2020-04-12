@@ -1,12 +1,7 @@
-"""
-Tests
-"""
+# pylint: disable=missing-module-docstring,missing-function-docstring
 
 import projname
 
 
 def test_itworks():
-    """
-    Tests
-    """
     assert projname.itworks() == "hello"
