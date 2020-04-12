@@ -4,6 +4,9 @@ together.
 """
 
 
+__version__ = '0.1.0'
+
+
 def itworks():
     """
     A simple function to call from our tests.

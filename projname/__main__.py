@@ -16,6 +16,7 @@ def main(argv):
     """
     print(f"Name: {__name__}")
     print(f"Package: {__package__}")
+    print(f"Package version: {projname.__version__}")
     print(f"Output: {projname.itworks()}")
     print(f"Args: {repr(argv)}")
 
