@@ -1,6 +1,7 @@
-import context
-from projname import itworks
+# pylint: disable=missing-module-docstring,missing-function-docstring
+
+import projname
 
 
 def test_itworks():
-    assert itworks() == "hello"
+    assert projname.itworks() == "hello"

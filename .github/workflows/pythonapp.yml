@@ -28,6 +28,9 @@ jobs:
     - name: Check formatting
       run: |
         pipenv run format-check
+    - name: Check lints
+      run: |
+        pipenv run lint
     - name: Run the tests
       run: |
         pipenv run tests
