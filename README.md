@@ -36,8 +36,18 @@ To check formatting for all files:
 $ pipenv run format-check
 ```
 
-To check formatting for all files and fix in-place:
+To fix formatting in-place for all files:
 
 ```shell
 $ pipenv run format
+```
+
+## Run the linter
+
+Linting is provided by [pylint](http://pylint.pycqa.org/en/latest/index.html).
+
+Run the linter using:
+
+```shell
+$ pipenv run lint
 ```
