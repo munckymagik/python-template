@@ -14,8 +14,8 @@ autopep8 = "*"
 python_version = "3.8"
 
 [scripts]
-app = "python app.py"
+app = "python -m projname"
 format = "autopep8 --recursive --in-place ."
 format-check = "autopep8 --exit-code --recursive --diff ."
-lint = "pylint -f colorized projname/ tests/ app.py"
+lint = "pylint -f colorized projname/ tests/"
 tests = "pytest --doctest-modules ."

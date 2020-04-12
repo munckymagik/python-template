@@ -1,5 +1,5 @@
 """
-A trivial example module to help prove our library and tests are working
+A trivial example module to help prove our package and tests are working
 together.
 """
 

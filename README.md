@@ -4,8 +4,8 @@ This is a template Python project. Use it to seed new applications.
 
 Included features are:
 
+* An application entry point using the [runpy](https://docs.python.org/3/library/runpy.html) / `python -m` mechanism
 * Dependency and environment management using [Pipenv](https://pipenv.pypa.io/en/latest/)
-* A simple front-end to run the application
 * Tests using [pytest](https://docs.pytest.org/en/latest/)
 * Linting using [pylint](http://pylint.pycqa.org/en/latest/index.html)
 * Formatting using [autopep8](https://pypi.org/project/autopep8/)
